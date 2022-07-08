@@ -260,6 +260,9 @@ Depois é o conteúdo da referência em si, para criá-la use colchetes, um acen
 **Exemplo:**
 ```[^1]: Minha nota de rodapé```
 
+OBS: O rodapé não pode ser colocado dentro de outros elementos Markdown como, tabelas, listas e blocos de código. As notas de rodapé serão, sempre, sequenciais, independente dos identificadores que você criou, por exemplo uma sequência de notas ```[^35]```, ```[^aaaa]``` e ```[^102_444]```, será renderizada como 1, 2 e 3.
+---
+
 
 
 ## IDs e Classes
@@ -278,5 +281,5 @@ Meu parágrafo{.classe-paragrafo}
 
 ## Referências
 
-> Curso em vídeo:
-> [Manual do Markdown para GitHub](https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf)
+1. > Curso em vídeo: > [Manual do Markdown para GitHub](https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf)
+1. > Markdown: > [Sintaxe Estendida - Recursos avançados que se baseiam nos fundamentos do Markdown.](https://markdown.net.br/sintaxe-estendida/)
