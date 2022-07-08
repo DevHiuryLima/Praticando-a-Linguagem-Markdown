@@ -20,6 +20,12 @@ Usando o til (~) você deixa a palavra ~~tachada~~.
 
 
 
+Para destacar um comando basta somente colocar esse comando entre crases.
+**Exemplo**
+
+`document.getElementById();`
+
+
 
 **Como formatar os títulos?**
 
@@ -87,6 +93,8 @@ Para colocar imagens, inicio com o ponto de exclamação (!), seguindo dos colch
 
 ![Descrição da imagem](./midia/GitHub-Mark.png)
 
+
+
 Para colocar links, é basicamente a mesma estrutura mas sem o ponto de exclamação (!) no inicio.
 **Exemplo:**
 
@@ -95,3 +103,65 @@ Para colocar links, é basicamente a mesma estrutura mas sem o ponto de exclama�
 
 
 ### Tabelas
+
+Para criar uma tabela em Markdown nós usamos traços (–) e barras verticais (|) para separar linhas e colunas.
+A primeira linha da tabela é onde construímos o cabeçalho, separando essa linha por três ou mais traços --- para que o processador Markdown entenda a formatação. A separação das colunas é feita usando a barra vertical |, também chamada de pipe por programadores.
+**Exemplo:**
+
+| Título  | Título   |
+| ------- | -------- |
+| Texto   | Texto    |
+| Texto   | Texto    |
+
+
+
+Pode criar uma tabela sem as barras laterais.
+**Exemplo:**
+
+ Título  | Título   
+ ------- | -------- 
+ Texto   | Texto    
+ Texto   | Texto    
+
+
+
+ Alargur das células, dentro da tabela pode variar.
+ **Exemplo:**
+
+ | Título | Título |
+| --- | ----------- |
+| Texto | Texto |
+| Texto     | Texto |
+
+
+
+Para alinhar um conteúdo à esquerda em uma tabela do Markdown, coloque dois pontos (:) antes dos traços (---) que separam a linha do cabeçalho.
+**Exemplo:**
+
+| Título | Título | Título |
+| :---   | :----  | :---   |
+| Texto  | Texto  | Texto  |
+| Texto  | Texto  | Texto  |
+
+
+
+Para alinhar o texto à direita dentro da tabela do Markdown, insira os dois pontos (:) depois dos traços (---) que separam a linha do cabeçalho.
+**Exemplo:**
+
+| Título | Título | Título |
+| ---:   | ----:  | ---:   |
+| Texto  | Texto  | Texto  |
+| Texto  | Texto  | Texto  |
+
+
+
+Para alinhar o conteúdo da coluna ao centro em uma tabela do Markdown, adicione dois pontos : antes e depois dos traços que separam a linha do cabeçalho.
+**Exemplo:**
+
+| Título | Título | Título |
+| :---:  | :----: | :---:  |
+| Texto  | Texto  | Texto  |
+| Texto  | Texto  | Texto  |
+
+
+
