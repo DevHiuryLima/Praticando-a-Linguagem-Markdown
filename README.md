@@ -259,8 +259,8 @@ Depois é o conteúdo da referência em si, para criá-la use colchetes, um acen
 
 **Exemplo:**
 ```[^1]: Minha nota de rodapé```
-
 OBS: O rodapé não pode ser colocado dentro de outros elementos Markdown como, tabelas, listas e blocos de código. As notas de rodapé serão, sempre, sequenciais (1, 2 e 3), independente dos identificadores que você criou.
+
 ---
 
 
