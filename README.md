@@ -287,4 +287,4 @@ Meu parágrafo{.classe-paragrafo}
 
 &#xa0;
 
-[Voltar para o topo](https://github.com/DevHiuryLima/Praticando-a-Linguagem-Markdown/edit/main/README.md#top)
+[Voltar para o topo](https://github.com/DevHiuryLima/Praticando-a-Linguagem-Markdown/blob/main/README.md#top)
