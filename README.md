@@ -257,9 +257,10 @@ Nota de rodapé no Markdown permite que o usuário crie uma referência para alg
 
 Depois é o conteúdo da referência em si, para criá-la use colchetes, um acento circunflexo seguido pelo mesmo identificador (que você criou anteriormente), dois pontos, um espaço em branco e o texto.
 
-**Exemplo:** ```[^1]: Minha nota de rodapé```
+**Exemplo:**
+```[^1]: Minha nota de rodapé```
 
-OBS: O conteúdo do rodapé não pode ser colocado dentro de outros elementos Markdown como, tabelas, listas e blocos de código.
+OBS: O rodapé não pode ser colocado dentro de outros elementos Markdown como, tabelas, listas e blocos de código.
 OBS: As notas de rodapé serão, sempre, sequenciais, independente dos identificadores que você criou, por exemplo uma sequência de notas ```[^35]```, ```[^aaaa]``` e ```[^102_444]```, será renderizada como 1, 2 e 3.
 ---
 
@@ -281,5 +282,5 @@ Meu parágrafo{.classe-paragrafo}
 
 ## Referências
 
-> Curso em vídeo
+> Curso em vídeo:
 > [Manual do Markdown para GitHub](https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf)
