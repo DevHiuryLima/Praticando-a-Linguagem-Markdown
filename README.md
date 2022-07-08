@@ -51,18 +51,25 @@ Para criar um bloco de código cercado coloque três crases antes do conteúdo e
 Para colocar emojis basta utilizar os dois pontos e após o código do emoji.
 
 **Exemplo:**
+```
 :v:
 :+1:
 :vulcan_salute:
 :hand:
+```
 
 OBS: Acessando no link [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet) você encontra todos os emoji com seus devidos códigos
+OBS: Acessando a [Emojipedia](https://emojipedia.org) encontre seu emoji favorito, e o procedimento é de copiar e colar.
 
 
 
 Para marcar uma pessoa utilize o (@) antes do nome.
 **Exemplo:**
 ```@DevHiuryLima```
+
+
+
+Para usar a barra vertical o código ```&#124;``` se transformará em uma barra vertical |.
 
 
 
@@ -239,5 +246,40 @@ Para alinhar o conteúdo da coluna ao centro em uma tabela do Markdown, adicione
 | Caju    | Agrião   | Cenoura |
 | Maçã    | Brócolis | Ervilha |
 ```
+---
 
 
+## Notas de rodapé
+
+Nota de rodapé no Markdown permite que o usuário crie uma referência para algum conceito citado no documento. A primeira parte representa o número contendo o link e é criado usando colchetes, um acento circunflexo e um identificador.
+
+**Exemplo:** ```[^1]```
+
+Depois é o conteúdo da referência em si, para criá-la use colchetes, um acento circunflexo seguido pelo mesmo identificador (que você criou anteriormente), dois pontos, um espaço em branco e o texto.
+
+**Exemplo:** ```[^1]: Minha nota de rodapé```
+
+OBS: O conteúdo do rodapé não pode ser colocado dentro de outros elementos Markdown como, tabelas, listas e blocos de código.
+OBS: As notas de rodapé serão, sempre, sequenciais, independente dos identificadores que você criou, por exemplo uma sequência de notas ```[^35]```, ```[^aaaa]``` e ```[^102_444]```, será renderizada como 1, 2 e 3.
+---
+
+
+
+## IDs e Classes
+
+Para adicionar um id ou uma classe a um elemento do Markdown abra chaves, logo após o conteúdo do elemento, coloque uma hashtag para indicar um id ou um ponto para indicar uma classe, em seguida, o próprio identificador e, por fim, feche as chaves.
+
+**Exemplo:**
+```
+### Título {#idTitulo}
+
+Meu parágrafo{.classe-paragrafo}
+```
+---
+
+
+
+## Referências
+
+> Curso em vídeo
+> [Manual do Markdown para GitHub](https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf)
