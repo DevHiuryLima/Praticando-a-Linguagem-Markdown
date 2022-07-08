@@ -27,6 +27,27 @@ Para destacar um comando basta somente colocar esse comando entre crases.
 
 
 
+Para criar um bloco de código cercado coloque três crases antes do conteúdo e três crases depois do conteúdo.
+**Exemplo:**
+
+```
+{
+  "nome": "Hiury",
+  "sobrenome": "Lima",
+  "idade": 22
+}
+```
+
+Para colocar emojis basta utilizar os dois pontos e após o código do emoji.
+**Exemplo:**
+
+:V
+:+1
+:vulcan_salute
+:hand
+
+OBS: Acessando no link ![emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet) você encontra todos os emoji com seus devidos códigos
+
 **Como formatar os títulos?**
 
 Usando uma hashtag você faz um título de nível 1. E aumtando a quantidade de hashtags (até 6) vai abaixando o nível dos titulos.
@@ -138,30 +159,37 @@ Pode criar uma tabela sem as barras laterais.
 Para alinhar um conteúdo à esquerda em uma tabela do Markdown, coloque dois pontos (:) antes dos traços (---) que separam a linha do cabeçalho.
 **Exemplo:**
 
-| Título | Título | Título |
-| :---   | :----  | :---   |
-| Texto  | Texto  | Texto  |
-| Texto  | Texto  | Texto  |
+| Frutas  | Verduras | Legumes |
+| :---    | :----    | :---    |
+| Caju    | Agrião   | Cenoura |
+| Maçã    | Brócolis | Ervilha |
 
 
 
 Para alinhar o texto à direita dentro da tabela do Markdown, insira os dois pontos (:) depois dos traços (---) que separam a linha do cabeçalho.
 **Exemplo:**
 
-| Título | Título | Título |
-| ---:   | ----:  | ---:   |
-| Texto  | Texto  | Texto  |
-| Texto  | Texto  | Texto  |
+| Frutas  | Verduras | Legumes |
+|    ---: |    ----: |    ---: |
+| Caju    | Agrião   | Cenoura |
+| Maçã    | Brócolis | Ervilha |
 
 
 
 Para alinhar o conteúdo da coluna ao centro em uma tabela do Markdown, adicione dois pontos : antes e depois dos traços que separam a linha do cabeçalho.
 **Exemplo:**
 
-| Título | Título | Título |
-| :---------:  | :---------: | :---------:  |
-| Texto  | Texto  | Texto  |
-| Texto  | Texto  | Texto  |
+| Frutas  | Verduras | Legumes |
+|  :---:  |  :----:  |  :---:  |
+| Caju    | Agrião   | Cenoura |
+| Maçã    | Brócolis | Ervilha |
 
 
 
+É possível mesclar a formatação de alinhamento, já que, essa, somente influencia o conteúdo de dentro da coluna.
+**Exemplo:**
+
+| Frutas  | Verduras | Legumes |
+| :---    |  :----:  |    ---: |
+| Caju    | Agrião   | Cenoura |
+| Maçã    | Brócolis | Ervilha |
