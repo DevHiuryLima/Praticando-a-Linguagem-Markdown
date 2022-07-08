@@ -69,15 +69,25 @@ Para fazer uma lista demarcada utiliza-se um asterico e na frente a palavra dese
 
 
 
-Para fazer uma lista de tarefas utiliza-se os colchetes e na frente a tarefa desejada. E para marcar a tarefa coloco o 'x' dentro dos colchetes.
+Para fazer uma lista de tarefas utiliza-se os colchetes e na frente a tarefa desejada. E para marcar a tarefa coloco o 'x' dentro dos colchetes. Como estamos trabalhando com lista é necessário iniciar a linha do item com um traço -.
 **Exemplo:**
 
-[] Tarefa
-[] Tarefa
-[x] Tarefa
-[] Tarefa
-[] Tarefa
+- [] Tarefa
+- [] Tarefa
+- [x] Tarefa
+- [] Tarefa
+- [] Tarefa
 
 
 
 ### Imagens e Links
+
+Para colocar imagens, inicio com o ponto de exclamação (!), seguindo dos colchetes para colocar a descrição da imagem e por ultimo os parênteses para a url da imagem.
+**Exemplo:**
+
+![Descrição da imagem](./midia/GitHub-Mark.png)
+
+Para colocar links, é basicamente a mesma estrutura mas sem o ponto de exclamação (!) no inicio.
+**Exemplo:**
+
+[Praticando a linguagem Markdown](https://github.com/DevHiuryLima/Praticando-a-Linguagem-Markdown)
