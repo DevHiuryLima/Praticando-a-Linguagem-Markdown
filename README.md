@@ -159,7 +159,7 @@ Para alinhar o conteúdo da coluna ao centro em uma tabela do Markdown, adicione
 **Exemplo:**
 
 | Título | Título | Título |
-| :---:  | :----: | :---:  |
+| :---------:  | :---------: | :---------:  |
 | Texto  | Texto  | Texto  |
 | Texto  | Texto  | Texto  |
 
