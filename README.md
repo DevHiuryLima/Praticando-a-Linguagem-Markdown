@@ -282,9 +282,9 @@ Meu parágrafo{.classe-paragrafo}
 
 ## Referências
 
-1. > Markdown: [Sintaxe Estendida - Recursos avançados que se baseiam nos fundamentos do Markdown.](https://markdown.net.br/sintaxe-estendida/)
-1. > Curso em vídeo: [Manual do Markdown para GitHub](https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf)
+1. > Markdown: [Sintaxe Estendida - Recursos avançados que se baseiam nos fundamentos do Markdown](https://markdown.net.br/sintaxe-estendida/).
+1. > Curso em vídeo: [Manual do Markdown para GitHub](https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf).
 
 &#xa0;
 
-[Voltar para o topo](https://github.com/DevHiuryLima/Praticando-a-Linguagem-Markdown/blob/main/README.md#top)
+[Voltar para o topo](https://github.com/DevHiuryLima/Praticando-a-Linguagem-Markdown#top)
